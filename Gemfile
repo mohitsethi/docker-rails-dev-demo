@@ -49,3 +49,6 @@ gem 'puma'
 if File.exists?("Gemfile.tip")
   eval_gemfile File.join(File.dirname(__FILE__), "Gemfile.tip")
 end
+gem 'timers'
+gem 'celluloid'
+gem 'connection_pool'
